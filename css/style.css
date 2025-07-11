@@ -48,6 +48,7 @@ p{
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+
 }
 
 .heading_container h2 {
@@ -103,7 +104,6 @@ a:focus {
       -ms-flex-direction: column;
           flex-direction: column;
 }
-
 .bg-box {
   position: absolute;
   top: 0;
@@ -142,6 +142,8 @@ a:focus {
 
 .header_section {
   padding: 15px 0;
+  background-color: rgba(61, 59, 59, 0.397);
+  backdrop-filter: blur(3px);
 }
 
 
@@ -278,7 +280,9 @@ a:focus {
 
 
 
+nav{
 
+}
 
 
 
@@ -290,12 +294,12 @@ a:focus {
 
 .navbar-brand {
   /* font-family: 'Dancing Script', cursive; */
+
 }
 
 .navbar-brand span {
   font-weight: bold;
   font-size: 32px;
-  color: #ffffff;
 }
 
 .custom_nav-container {
@@ -317,7 +321,10 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #ffbe33;
+  color: white;
+  font-weight: bold;
+  background-color: rgba(61, 59, 59, 0.397);
+  backdrop-filter: blur(3px);
 }
 
 .custom_nav-container .nav_search-btn {
@@ -442,6 +449,8 @@ a:focus {
           align-items: center;
   position: relative;
   padding: 45px 0 75px 0;
+    background-color: rgba(61, 59, 59, 0.397);
+  backdrop-filter: blur(3px);
 }
 
 .slider_section .row {
@@ -467,7 +476,8 @@ a:focus {
 }
 
 .slider_section .detail-box p {
-  font-size: 14px;
+  font-size: 20px;
+  backdrop-filter: blur(3px);
 }
 
 .slider_section .detail-box a {
